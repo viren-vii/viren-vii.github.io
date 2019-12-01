@@ -1,0 +1,189 @@
+body
+{
+	background-image: url("1571840656446.jpg");
+	background-color: #000000;
+	background-position: top;
+	background-repeat: no-repeat;
+    
+	
+}
+p1
+{
+    color: lavender;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-family: westminster;
+}
+
+*
+{
+	margin: 0;
+	padding: 10;
+	
+	
+}
+ul 
+{	
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+     font-family: westminster;
+	
+}
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{	
+	background-color: #ffffff;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid #ffffff;
+	background-image: url("1571840656592.jpg");
+	
+	
+}
+ul li a:hover
+{	
+	background-image: url("red.png");
+	color:#ffffff;
+
+}
+section
+{		
+	height: 100vh;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    font-size: 2em;
+    font-family: westminster;
+    
+}
+h1 span
+{
+    display: inline-block;
+    animation: animate 1s linear;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity 0%;
+        transform: rotateY(0deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity 0%;
+        transform: rotateY(360deg);
+        filter: blur(0px);
+        
+    }
+}
+p
+{
+	color: #ffffff;
+	position: absolute;
+	top: 25%;
+	left:5%;
+	font-size: 30px;
+	padding: 10px 20px;
+	
+}
+video
+{   
+    width: 33%;
+    height: 10%;
+    object-fit: cover;
+    position: fixed;
+    right: 33.5%;
+    bottom: 42%;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    .video
+    {   
+        display: block;
+        width: 88%;
+        height: 10%;
+        bottom: 42%;
+        right: 5%;
+    }
+    h1
+    {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 51%;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        font-size: 2em;
+        font-family: westminster;
+
+    }    
+}
+@media only screen and (min-width:768px) and (max-width:1024)
+{
+    .video
+    {   
+        display: block;
+        width: 88%;
+        height: 10%;
+        bottom: 42%;
+        right: 5%;
+    }
+    h1
+    {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 51%;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        font-size: 2em;
+        font-family: westminster;
+
+    }    
+}
+
+@media only screen and (min-width:1025px)
+{
+    .video
+    {   
+        display: block;
+        width: 40%;
+        height: 10%;
+        bottom: 42%;
+        right: 30%;
+    }
+    h1
+    {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 51%;
+        width: 100%;
+        text-align: center;
+        color: azure;
+        font-size: 3em;
+        font-family: westminster;
+
+    }
+
+}
+
+

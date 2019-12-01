@@ -1,0 +1,213 @@
+body
+{
+	
+	background-color: #000000;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+li a
+{	
+	float: left;
+	list-style-type: none;
+	margin-top: 15px;
+	display: inlne-block;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid #ffffff;
+	background-image: url("1571840656592.jpg");
+    font-family: westminster;
+}
+li a:hover
+{	
+	background-image: url("red.png");
+	color:#ffffff;
+
+}
+img
+{	
+    
+	position: absolute;
+	left:35%;
+    object-fit: cover;
+	width: 500px;
+}
+.rectangle1
+{
+	position: absolute;
+	top:56%;
+	left:44%;
+	font-family: westminster;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+
+.rectangle2
+{	
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	background-image: url("1571840656592.jpg");
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.rectangle2 p
+{
+	color:white;
+	font-size:18px;
+	font-family: westminster;
+}
+.rectangle3
+{	
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	background-image: url("red.png");
+	color: white;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.rectangle3 p
+{	
+	color:white;
+	
+	font-size:18px;
+	font-family: westminster;
+}
+.rectangle3:hover:after
+{	padding:5px;
+	background-color: #000000;
+	content:"85.69%age";
+}
+
+.rectangle4
+{	
+	position: absolute;
+	top: 80%;
+	left: 65%;
+	background-image: url("red.png");
+	color: #ffffff;
+	background-color: #ccffff;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.rectangle4 p
+{
+	color:white;
+	font-size:18px;
+	font-family: westminster;
+}
+.rectangle4:hover:after
+{	
+	padding:5px;
+	background-color: #000000;
+	content:'96.893101%ile';
+}
+.rectangle5
+{	
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	color:#ffffff;
+	background-image: url("1571840656592.jpg");
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.rectangle5 p
+{
+	color:white;
+	font-size:18px;
+	font-family: westminster;
+}
+
+@media screen and (max-width:768px)
+{
+    .image
+    {   
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 350px;
+    }
+    .rectangle1
+    {
+        position: absolute;
+        top:2%;
+        left:40%;
+    }
+    .rectangle3
+    {	
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+    .rectangle4
+    {	
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
+    .rectangle2
+    {	
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+.rectangle5
+    {	
+        position: absolute;
+        top: 50%;
+        right: 5%;
+    }
+
+}
+@media screen and (min-width:769px)
+{
+    .image
+    {   
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        width: 350px;
+    }
+    .rectangle1
+    {
+        position: absolute;
+        top:45%;
+        left:45%;
+    }
+    .rectangle3
+    {	
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+    .rectangle4
+    {	
+        position: absolute;
+        bottom: 5%;
+        left: 85%;
+    }
+    .rectangle2
+    {	
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+    .rectangle5
+    {	
+        position: absolute;
+        top: 50%;
+        right: 20%;
+    }
+    
+}
+
+
+
